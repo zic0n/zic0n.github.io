@@ -1,2 +1,1 @@
-const btn=document.querySelector('.menu-btn');const nav=document.querySelector('.nav-links');if(btn&&nav){btn.addEventListener('click',()=>{nav.classList.toggle('open');btn.setAttribute('aria-expanded',nav.classList.contains('open')?'true':'false')})}
-document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+document.querySelectorAll("[data-year]").forEach(el=>el.textContent=new Date().getFullYear());const b=document.querySelector(".menu-btn"),n=document.querySelector(".nav-links");if(b&&n){b.addEventListener("click",()=>{const o=n.classList.toggle("open");b.setAttribute("aria-expanded",String(o));});}
